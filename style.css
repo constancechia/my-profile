@@ -1,0 +1,94 @@
+body {
+	background-color: wh;
+	color:	black;
+	font-family: Courier;
+	font-weight: 40;
+}
+#img-circle {
+	border-radius: 50%;
+	width: 250px;
+	box-shadow: 0px 10px 30px black;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-family: 'Caveat', cursive;
+
+}
+
+h2{
+	background-color: lightgrey;
+	color: rgb(255, 255, 255);
+	font-family: 'Caveat', cursive;	
+	font-weight: 130;
+	letter-spacing: 3px;
+	font-size: 35px;
+}
+
+p{
+	font-family: 'Spartan', sans-serif;
+}
+
+a{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+}
+.container{
+	width: 900px;
+	margin: 30PX auto;
+	padding: 40px;
+}
+
+.sage-card{
+	background-color: lightgrey;
+	padding: 20px auto; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+	border-radius: 5px;
+	margin: center;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.l-inline{
+	list-style: none;
+	padding-left: 0px;
+	display: inline;
+	padding: 30px;
+	margin: center;
+}
+
+.l-inline i{
+	font-size: 50px;
+	color: white;
+}
+
+.btn-grey{
+	background-color: white;
+	color: lightgrey;
+	border-radius: 4px;
+	padding: 10px 15px;
+	box-shadow: 0px 0px 10px grey;
+	text-decoration: none;
+}
+
+.btn-grey:hover{
+	color: white;
+	background-color: #ffffb3
+}
+
+
+@media(max-width: 760px){
+	.container{
+		width: 400px;
+		margin: 20px auto;
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+		margin: 0px auto;
+	}
+}
